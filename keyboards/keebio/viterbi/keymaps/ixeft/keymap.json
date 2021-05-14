@@ -3,7 +3,7 @@
   "notes": "",
   "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
   "keyboard": "keebio/viterbi/rev2",
-  "keymap": "viterbi_keymapv15",
+  "keymap": "ixeft",
   "layout": "LAYOUT",
   "layers": [
     [
@@ -13,7 +13,7 @@
       "KC_3",
       "KC_4",
       "KC_5",
-      "KC_ESC",
+      "KC_DEL",
       "KC_6",
       "KC_7",
       "KC_8",
@@ -55,7 +55,7 @@
       "KC_C",
       "KC_V",
       "KC_B",
-      "KC_DEL",
+      "KC_ESC",
       "KC_N",
       "KC_M",
       "KC_COMM",
