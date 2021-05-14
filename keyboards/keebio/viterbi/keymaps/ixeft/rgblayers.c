@@ -16,7 +16,6 @@ const rgblight_segment_t* const PROGMEM rgb_layers[] = RGBLIGHT_LAYERS_LIST(
 void keyboard_post_init_user(void) {
     // Enable the LED layers
     rgblight_layers = rgb_layers;
-    rgblight_enable_noeeprom();
 }
 
 bool led_update_user(led_t led_state) {
